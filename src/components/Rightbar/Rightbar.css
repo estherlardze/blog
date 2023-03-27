@@ -1,0 +1,83 @@
+.acme__rightbar{   
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.05);
+    width: 100%;
+}
+.acme__rightbar-nav{
+    background-color: #fff;
+    box-shadow: 0 0 2px rgb(0,0,0,.2);
+    height: 3rem;
+}
+.acme__rightbar-save{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+.button{
+    background-color: rgb(20, 24, 30);
+    border-radius: 5px;
+    padding: 5px 0;
+    width: 6rem;
+    text-align: center;
+    margin-top: 1rem;   
+    margin-bottom: 1rem;
+    cursor: pointer;
+    color: white;
+}
+.acme_rightbar-author{
+    margin-left: 1rem;
+}
+.acme__rightbar-author__image{
+    display: flex;
+    gap: 5px;
+    background-color: white;
+    box-shadow: 0 0 2px rgb(0,0,0,.2);
+    border-radius: 5px;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+.acme__rightbar-author__image img{
+    width: 30px;
+    height: 30px;
+}
+.acme__righrbar-post{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.acme__rightbar-date input{
+    outline: none;
+    border: none;
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+.acme__rightbar-date input:first-child{
+    margin-right: 7px;
+}
+.acme__rightbar-date input:nth-child(2){
+    padding: 3px;
+}
+.acme__rightbar-category{
+    margin-left: 1rem;
+    
+}
+.acme__rightbar-category > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 10px;
+    box-shadow: 0 0 2px rgb(0,0,0,.2);
+    width: 80%;
+    border-radius: 5px;
+}
+.acme__rightbar-category p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.05);
+    border-radius: 25px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
