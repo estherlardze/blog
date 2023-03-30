@@ -29,12 +29,15 @@ const EditBlock = () => {
               <RiDeleteBinLine className='del__icon'/>
             </div>
 
-            <div className='acme__main-content__blogA'>
-                <h3>Making the world a better place</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Quasi accusamus quidem, nam aut omnis reprehenderit harum. Blanditiis 
-                accusantium dolorem exercitationem rem, harum saepe perspiciatis!</p>
+              {toggleIcon && 
+               <div className='acme__main-content__blogA'>
+               <h3>Making the world a better place</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+               Quasi accusamus quidem, nam aut omnis reprehenderit harum. Blanditiis 
+               accusantium dolorem exercitationem rem, harum saepe perspiciatis!</p>
             </div>
+             }
+
 
           </article>
 
@@ -50,22 +53,24 @@ const EditBlock = () => {
               </p>
               <RiDeleteBinLine className='del__icon'/>
             </div>
-    
-            <div className='acme__main-content__blogB'>
 
-              <div className="acme__main-content_upload-image">
-                <p>Upload image</p>
-                <label htmlFor="file">
-                  <input type="file"  id="file"/>
-                  <span>Upload a file</span> or drag and drop
-                </label>
-              </div>
+            {toggleIcon && 
+                <div className='acme__main-content__blogB'>
 
-              <div className="acme__main-content_upload-caption">
-                <p>Caption</p>
-                <input type="text" />  
+                <div className="acme__main-content_upload-image">
+                  <p>Upload image</p>
+                  <label htmlFor="file">
+                    <input type="file"  id="file"/>
+                    <span>Upload a file</span> or drag and drop
+                  </label>
+                </div>
+  
+                <div className="acme__main-content_upload-caption">
+                  <p>Caption</p>
+                  <input type="text" />  
+                </div>
               </div>
-            </div>
+             }
 
           </article>
           <p className='acme__main-add_block' 
